@@ -233,12 +233,6 @@ My portfolio is structured as a complete production AI ecosystem covering the en
 
 ---
 
-# 🎯 Engineering Philosophy
-
-> **I enjoy building production AI systems that are scalable, measurable, and optimized across the complete LLM lifecycle—from distributed training and fine-tuning to inference, retrieval, evaluation, and cloud-native deployment.**
-
----
-
 # 🎯 Current Objectives
 
 My current work focuses on designing and implementing production-grade AI infrastructure with emphasis on:
