@@ -4,237 +4,333 @@
 
 ### AI/ML Systems Engineer • AI/ML Engineer • Full-Stack Data Scientist
 
-Building production-scale AI systems spanning **distributed LLM training, inference runtimes, retrieval infrastructure, multi-agent platforms, and cloud-native ML systems.**
+Building production-scale AI infrastructure spanning **distributed LLM training, high-performance inference, retrieval systems, agentic AI, and cloud-native ML platforms.**
 
 ---
 
-Currently engineering high-performance AI infrastructure with a focus on **PyTorch, CUDA, Triton, Ray, Kubernetes, and distributed systems.**
+**Current Focus**
+
+Distributed LLM Training • CUDA & Triton Optimization • LLM Serving • Multi-Agent Systems • Retrieval-Augmented Generation • RLHF Evaluation • Distributed GPU Computing • AI Infrastructure
 
 </div>
 
 ---
 
-# About Me
+# 👋 About Me
 
 I enjoy building production-oriented AI infrastructure from the ground up.
 
-Rather than focusing only on model development, I design complete AI platforms covering:
+Rather than focusing on isolated machine learning models, I design complete AI platforms covering the entire large language model lifecycle—from distributed training and fine-tuning to optimized inference, retrieval, evaluation, and deployment.
+
+My primary interests include:
 
 - Distributed LLM Training
 - High-Performance LLM Inference
-- CUDA Runtime Optimization
+- CUDA & Triton Runtime Optimization
+- AI Infrastructure & Distributed Systems
 - Retrieval-Augmented Generation (RAG)
-- Multi-Agent Systems
-- RLHF & Evaluation Frameworks
-- Cloud-Native AI Infrastructure
-- End-to-End MLOps
-
-My portfolio is built around real production architectures similar to those used in modern frontier AI laboratories.
+- Multi-Agent AI Systems
+- RLHF & Statistical Model Evaluation
+- Cloud-Native Machine Learning Platforms
 
 ---
 
-# Current Focus
+# 🎯 Engineering Domains
+
+<table>
+<tr>
+<td valign="top" width="33%">
+
+### 🧠 AI/ML Engineering
 
 - Large Language Models
-- Distributed Deep Learning
-- CUDA & Triton Optimization
-- LLM Serving Infrastructure
-- Agentic AI Systems
-- RLHF & LLM Evaluation
-- Distributed GPU Computing
-- AI Infrastructure Engineering
-- Scalable ML Platforms
+- PyTorch
+- Transformers
+- RLHF
+- PEFT
+- LoRA / QLoRA
+- RAG
+- Multi-Agent AI
 
----
+</td>
 
-# Production Portfolio
+<td valign="top" width="33%">
 
-| Project | Domain |
-|---------|--------|
-| **Llama_Pure_Compute** | High-Performance LLM Runtime |
-| **NexusCache-Engine** | Distributed LLM Serving & KV Cache |
-| **OmniPEFT** | Parameter-Efficient Fine-Tuning Framework |
-| **AetherScale-RAG** | Distributed Retrieval-Augmented Generation |
-| **VortexGrid-Engine** | Distributed LLM Training Platform |
-| **EvalAgent-Platform** | Multi-Agent Runtime & RLHF Evaluation Platform |
+### ⚙️ AI Systems Engineering
 
-Each project focuses on a different layer of modern AI infrastructure, together forming an end-to-end production ecosystem.
+- CUDA
+- Triton
+- C++20
+- Ray
+- DeepSpeed
+- FSDP
+- Tensor Parallelism
+- LLM Serving
 
----
+</td>
 
-# Core Technology Stack
+<td valign="top" width="33%">
 
-### Languages
+### ☁️ Production Infrastructure
 
-Python • C++20 • CUDA • Triton • SQL
+- Docker
+- Kubernetes
+- Kafka
+- Redis
+- FastAPI
+- Prometheus
+- Grafana
+- MLflow
 
-### AI & Machine Learning
+</td>
+</tr>
+</table>
 
-PyTorch • Transformers • DeepSpeed • FSDP • PEFT • Ray • RLHF • LangGraph
-
-### Infrastructure
-
-Docker • Kubernetes • FastAPI • Redis • Kafka • PostgreSQL • Qdrant
-
-### Monitoring & MLOps
-
-Prometheus • Grafana • MLflow • Weights & Biases • GitHub Actions
-
----
 ---
 
 # 🚀 Production AI Portfolio
 
-These repositories are designed as complementary components of a modern AI infrastructure stack, covering the complete lifecycle of large language model systems—from distributed training and fine-tuning to inference, retrieval, evaluation, and production deployment.
+The repositories below are designed as complementary components of a modern production AI stack, covering the complete lifecycle of large language model systems—from distributed training to deployment.
 
-| Project | Primary Domain | Core Technologies |
-|----------|----------------|------------------|
-| ⚡ **VortexGrid-Engine** | Distributed LLM Training | PyTorch FSDP, DeepSpeed ZeRO, NCCL, Ray, Kubernetes |
-| ⚡ **OmniPEFT** | Parameter-Efficient Fine-Tuning | LoRA, QLoRA, NF4, Adapter Fusion, CUDA |
-| ⚡ **Llama_Pure_Compute** | High-Performance LLM Runtime | CUDA, Triton, FlashAttention, MoE, KV Cache |
-| ⚡ **NexusCache-Engine** | Production LLM Serving | Paged KV Cache, Async Scheduling, Ray, C++ |
-| ⚡ **AetherScale-RAG** | Enterprise Retrieval Systems | Hybrid Search, Qdrant, FastAPI, C++, Statistical Evaluation |
-| ⚡ **EvalAgent-Platform** | Agentic AI & RLHF Evaluation | LangGraph, Ray, Kafka, RLHF, MLflow |
+| Repository | Engineering Domain |
+|------------|--------------------|
+| **VortexGrid-Engine** | Distributed LLM Training |
+| **OmniPEFT** | Parameter-Efficient Fine-Tuning |
+| **Llama_Pure_Compute** | CUDA Runtime & High-Performance Inference |
+| **NexusCache-Engine** | Production LLM Serving |
+| **AetherScale-RAG** | Enterprise Retrieval Infrastructure |
+| **EvalAgent-Platform** | Multi-Agent AI & RLHF Evaluation |
 
 ---
+# 🏗 Production AI Systems Architecture
 
-# 🏗 AI Systems Architecture
-
-The projects together represent a complete production AI stack.
+My portfolio is structured as a complete production AI ecosystem covering the entire lifecycle of modern large language models.
 
 ```text
-                 ┌─────────────────────────────┐
-                 │  VortexGrid-Engine          │
-                 │ Distributed LLM Training    │
-                 └──────────────┬──────────────┘
-                                │
-                 ┌──────────────▼──────────────┐
-                 │      OmniPEFT              │
-                 │ Fine-Tuning & Adaptation   │
-                 └──────────────┬──────────────┘
-                                │
-                 ┌──────────────▼──────────────┐
-                 │ Llama_Pure_Compute          │
-                 │ Optimized Runtime Engine    │
-                 └──────────────┬──────────────┘
-                                │
-                 ┌──────────────▼──────────────┐
-                 │ NexusCache-Engine           │
-                 │ Production LLM Serving      │
-                 └──────────────┬──────────────┘
-                                │
-                 ┌──────────────▼──────────────┐
-                 │ AetherScale-RAG             │
-                 │ Retrieval Infrastructure    │
-                 └──────────────┬──────────────┘
-                                │
-                 ┌──────────────▼──────────────┐
-                 │ EvalAgent-Platform          │
-                 │ Multi-Agent Evaluation      │
-                 └─────────────────────────────┘
+                               Production AI Stack
+
+                 ┌────────────────────────────────────────┐
+                 │     VortexGrid-Engine                  │
+                 │  Distributed LLM Training Platform     │
+                 └──────────────────┬─────────────────────┘
+                                    │
+                                    ▼
+                 ┌────────────────────────────────────────┐
+                 │         OmniPEFT                       │
+                 │  Parameter-Efficient Fine-Tuning       │
+                 └──────────────────┬─────────────────────┘
+                                    │
+                                    ▼
+                 ┌────────────────────────────────────────┐
+                 │      Llama_Pure_Compute                │
+                 │ CUDA Runtime & Inference Optimization  │
+                 └──────────────────┬─────────────────────┘
+                                    │
+                                    ▼
+                 ┌────────────────────────────────────────┐
+                 │      NexusCache-Engine                 │
+                 │ Production LLM Serving Infrastructure  │
+                 └──────────────────┬─────────────────────┘
+                                    │
+                                    ▼
+                 ┌────────────────────────────────────────┐
+                 │       AetherScale-RAG                  │
+                 │ Enterprise Retrieval Infrastructure    │
+                 └──────────────────┬─────────────────────┘
+                                    │
+                                    ▼
+                 ┌────────────────────────────────────────┐
+                 │      EvalAgent-Platform                │
+                 │ Multi-Agent Runtime & RLHF Evaluation  │
+                 └────────────────────────────────────────┘
 ```
 
 ---
 
-# ⚙ Core Engineering Expertise
+# ⚙ Engineering Expertise
 
-### AI/ML Engineering
+<table>
+<tr>
 
-- Large Language Models (LLMs)
-- PyTorch & Transformers
-- RLHF & Preference Optimization
-- Retrieval-Augmented Generation (RAG)
-- Multi-Agent AI Systems
+<td valign="top" width="33%">
+
+### 🧠 AI/ML Engineering
+
+- Large Language Models
+- Transformer Architectures
 - Distributed Deep Learning
-- Fine-Tuning (LoRA, QLoRA, PEFT)
+- Fine-Tuning
+- RLHF
+- Preference Optimization
+- Retrieval-Augmented Generation
+- Multi-Agent AI
 
-### AI/ML Systems Engineering
+</td>
 
-- CUDA & Triton Optimization
-- C++20 Performance Engineering
-- Distributed GPU Training
-- High-Performance LLM Serving
-- Ray Distributed Systems
-- DeepSpeed ZeRO & FSDP
+<td valign="top" width="33%">
+
+### ⚡ AI/ML Systems Engineering
+
+- CUDA
+- Triton
+- C++20
+- PyTorch
+- Ray
+- DeepSpeed
+- FSDP
 - Tensor Parallelism
-- KV-Cache Optimization
-- Async Runtime Design
+- KV Cache Optimization
+- FlashAttention
+- High-Performance Inference
+- Distributed Runtime Systems
 
-### Full-Stack Data Science
+</td>
+
+<td valign="top" width="33%">
+
+### 📊 Full-Stack Data Science
 
 - Statistical Evaluation
-- A/B Testing
-- Experiment Tracking
-- MLflow
-- Weights & Biases
+- Bootstrap Confidence Intervals
 - Bayesian Optimization
 - Optuna
-- Bootstrap Confidence Intervals
-- Model Benchmarking
+- MLflow
+- Weights & Biases
+- Experiment Tracking
+- A/B Testing
+- Benchmarking
+- Data Pipelines
+- Feature Engineering
+
+</td>
+
+</tr>
+</table>
 
 ---
 
 # 🛠 Technology Stack
 
-### Languages
+### Programming Languages
 
-Python • C++20 • CUDA • Triton • SQL
+`Python` • `C++20` • `CUDA` • `Triton` • `SQL`
 
-### AI Frameworks
+### AI & Machine Learning
 
-PyTorch • Transformers • PEFT • DeepSpeed • Ray • LangGraph
+`PyTorch` • `Transformers` • `PEFT` • `DeepSpeed` • `FSDP` • `Ray` • `LangGraph`
 
-### Infrastructure
+### Distributed Systems
 
-FastAPI • Docker • Kubernetes • Redis • Kafka • Qdrant • PostgreSQL
+`Docker` • `Kubernetes` • `Kafka` • `Redis` • `FastAPI`
+
+### Data & Retrieval
+
+`Qdrant` • `PostgreSQL` • `Redis` • `RAG`
 
 ### Observability
 
-Prometheus • Grafana • MLflow • Weights & Biases • OpenTelemetry
+`Prometheus` • `Grafana` • `MLflow` • `Weights & Biases` • `OpenTelemetry`
 
 ---
 
-# 🎯 Current Engineering Goals
+# 🎯 Engineering Philosophy
 
-- Build production-scale AI infrastructure
-- Engineer efficient distributed LLM training systems
-- Optimize CUDA & Triton kernels for low-latency inference
-- Design scalable RAG and retrieval architectures
-- Develop production LLM serving platforms
-- Advance multi-agent AI systems and RLHF evaluation
-- Contribute to frontier AI engineering
+> **I enjoy building production AI systems that are scalable, measurable, and optimized across the complete LLM lifecycle—from distributed training and fine-tuning to inference, retrieval, evaluation, and cloud-native deployment.**
+
+---
+
+# 🎯 Current Objectives
+
+My current work focuses on designing and implementing production-grade AI infrastructure with emphasis on:
+
+- Distributed LLM Training Systems
+- CUDA & Triton Performance Optimization
+- High-Performance LLM Inference
+- Production LLM Serving
+- Retrieval-Augmented Generation (RAG)
+- Multi-Agent AI Systems
+- RLHF & Evaluation Frameworks
+- Distributed GPU Computing
+- Cloud-Native AI Platforms
+- End-to-End MLOps & Observability
+
+---
+
+# 💼 Professional Experience
+
+### AI Research Intern
+**Genetics Department, El Demerdash Hospital, Ain Shams University**
+
+**October 2024 – January 2026**
+
+Applied machine learning research to computational genetics, contributing to AI-driven biomedical research, data analysis, experimentation, and model evaluation.
+
+---
+
+### AI Research Intern
+**Zagazig University**
+
+**January 2026 – August 2026**
+
+Conducted applied AI research involving machine learning, statistical analysis, experimentation, model development, and performance evaluation.
+
+---
+
+# 🎓 Education
+
+**Bachelor of Medicine & Surgery with specialized education in Artificial Intelligence & Machine Learning through the Faculty of Computer Science & Artificial Intelligence**
+
+**MTI University, Egypt** *(2019–2024)*
+
+---
+
+# 🔬 Research Interests
+
+- Large Language Models
+- AI Infrastructure
+- Distributed Systems
+- High-Performance Computing
+- CUDA Runtime Optimization
+- Retrieval Systems
+- Multi-Agent AI
+- Reinforcement Learning from Human Feedback (RLHF)
+- AI Systems Engineering
+- Cloud-Native Machine Learning
 
 ---
 
 # 🤝 Open To
 
-- AI/ML Engineer
-- AI/ML Systems Engineer
-- Full-Stack Data Scientist
-- Applied AI Research
+I'm interested in opportunities involving:
+
+- AI/ML Systems Engineering
+- AI/ML Engineering
+- Full-Stack Data Science
 - LLM Infrastructure
-- Distributed Systems Engineering
+- Distributed AI Systems
+- Production Machine Learning
+- Applied AI Research
 
 ---
 
 # 📫 Connect
 
-- 📧 **Email:** `bahaasamir140@gmail.com`
-- 💼 **LinkedIn:** *(Add your LinkedIn URL here)*
-- 📄 **Resume:** *(Add resume link when available)*
+- 📧 **Email:** **bahaasamir140@gmail.com**
+- 💼 **LinkedIn:** **
+- 📄 **Resume:** **
 
 ---
 
 <div align="center">
 
-## 💡 Engineering Philosophy
+## Engineering Philosophy
 
-> *Build AI systems that are scalable, measurable, reliable, and production-ready—from distributed training to optimized inference, retrieval, evaluation, and deployment.*
+> **Building scalable, high-performance AI systems that span the complete LLM lifecycle—from distributed training and optimization to inference, retrieval, evaluation, and cloud-native deployment.**
 
 ---
 
-### Thanks for visiting my profile.
+⭐ **Thank you for visiting my GitHub profile.**
 
-⭐ If you find one of my projects interesting, feel free to explore the repositories or connect with me.
+I enjoy building production AI infrastructure and sharing engineering-focused open-source projects exploring the complete lifecycle of modern machine learning systems.
 
 </div>
