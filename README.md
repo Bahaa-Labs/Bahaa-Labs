@@ -193,17 +193,6 @@ FastAPI • Docker • Kubernetes • Redis • Kafka • Qdrant • PostgreSQL
 Prometheus • Grafana • MLflow • Weights & Biases • OpenTelemetry
 
 ---
-# 📈 GitHub Analytics
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Bahaa-Labs&show_icons=true&theme=github_dark&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Bahaa-Labs&layout=compact&theme=github_dark&hide_border=true)
-
-</div>
-
----
 
 # 🎯 Current Engineering Goals
 
