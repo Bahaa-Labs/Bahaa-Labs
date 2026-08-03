@@ -272,9 +272,12 @@ Conducted applied AI research involving machine learning, statistical analysis, 
 
 # 🎓 Education
 
-**Bachelor of Medicine & Surgery with specialized education in Artificial Intelligence & Machine Learning through the Faculty of Computer Science & Artificial Intelligence**
+### Bachelor of Medicine & Surgery
+**Faculty of Medicine, MTI University, Egypt**
 
-**MTI University, Egypt** *(2019–2024)*
+Completed concurrently with **bachelor-level education in Artificial Intelligence & Machine Learning** through the **Faculty of Computer Science & Artificial Intelligence**, with coursework in Machine Learning, Deep Learning, Artificial Intelligence, Data Science, Computer Vision, Natural Language Processing, Data Structures & Algorithms, Database Systems, and Software Engineering.
+
+**2019 – 2024**
 
 ---
 
