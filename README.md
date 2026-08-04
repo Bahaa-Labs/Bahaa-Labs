@@ -314,7 +314,8 @@ I'm interested in opportunities involving:
 
 - 📧 **Email:** **bahaasamir140@gmail.com**
 - 💼 **LinkedIn:** **
-- 📄 **Resume:** *file:///home/bahaa/Downloads/Bahaa-ML-Resume-1.pdf*
+- 📄 **Resume:** *[Bahaa-ML-Resume.pdf](https://github.com/user-attachments/files/30708779/Bahaa-ML-Resume.pdf)
+*
 
 ---
 
