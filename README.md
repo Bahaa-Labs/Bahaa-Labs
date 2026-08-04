@@ -313,7 +313,7 @@ I'm interested in opportunities involving:
 # 📫 Connect
 
 - 📧 **Email:** **bahaasamir140@gmail.com**
-- 💼 **LinkedIn:**https://www.linkedin.com/in/bahaa-samir**
+- 💼 **LinkedIn: **https://www.linkedin.com/in/bahaa-samir**
 - 📄 **Resume:** [Bahaa-ML-Resume.pdf](https://github.com/user-attachments/files/30708779/Bahaa-ML-Resume.pdf)
 *
 
