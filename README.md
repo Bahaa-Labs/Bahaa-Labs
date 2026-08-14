@@ -96,7 +96,7 @@ The repositories below are designed as complementary components of a modern prod
 |------------|--------------------|
 | **VortexGrid-Engine** | Distributed LLM Training |
 | **OmniPEFT** | Parameter-Efficient Fine-Tuning |
-| **Llama_Pure_Compute** | CUDA Runtime & High-Performance Inference |
+| **CUDAForge** | CUDA Runtime & High-Performance Inference |
 | **NexusCache-Engine** | Production LLM Serving |
 | **AetherScale-RAG** | Enterprise Retrieval Infrastructure |
 | **EvalAgent-Platform** | Multi-Agent AI & RLHF Evaluation |
@@ -122,7 +122,7 @@ My portfolio is structured as a complete production AI ecosystem covering the en
                                     │
                                     ▼
                  ┌────────────────────────────────────────┐
-                 │      Llama_Pure_Compute                │
+                 │        CUDAForge                       │
                  │ CUDA Runtime & Inference Optimization  │
                  └──────────────────┬─────────────────────┘
                                     │
