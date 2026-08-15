@@ -133,7 +133,6 @@ Linux · CI/CD · Testing · Benchmarking · Observability · Performance Engine
 
 <div align="center">
 
-**[LinkedIn]([[linkedin.com/in/bahaa-samir](https://www.linkedin.com/in/bahaa-samir/))) · [Resume]([Bahaa-ML-Resume-1.pdf](https://github.com/user-attachments/files/31098441/Bahaa-ML-Resume-1.pdf)
- · [Contact](mailto:bahaasamir140@gmail.comL)**
+**[LinkedIn](https://www.linkedin.com/in/bahaa-samir/) · [Resume](https://github.com/user-attachments/files/31098441/Bahaa-ML-Resume-1.pdf) · [Contact](mailto:bahaasamir140@gmail.com)**
 
 </div>
