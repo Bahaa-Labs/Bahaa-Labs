@@ -1,334 +1,139 @@
 <div align="center">
 
-# Bahaa Samir
+# Bahaa Labs
 
-### AI/ML Systems Engineer • AI/ML Engineer • Full-Stack Data Scientist
+### AI/ML Engineer · AI/ML Systems Engineer · Full-Stack Data Scientist
 
-Building production-scale AI infrastructure spanning **distributed LLM training, high-performance inference, retrieval systems, agentic AI, and cloud-native ML platforms.**
+**Building end-to-end AI systems from data and experimentation to models, inference, and production infrastructure.**
 
----
-
-**Current Focus**
-
-Distributed LLM Training • CUDA & Triton Optimization • LLM Serving • Multi-Agent Systems • Retrieval-Augmented Generation • RLHF Evaluation • Distributed GPU Computing • AI Infrastructure
+`Machine Learning` · `LLMs` · `Data Science` · `RAG` · `Fine-Tuning` · `Evaluation` · `Distributed Systems` · `GPU Computing`
 
 </div>
 
 ---
 
-# 👋 About Me
+## What I Build
 
-I enjoy building production-oriented AI infrastructure from the ground up.
+I engineer **end-to-end AI/ML systems** spanning model adaptation, evaluation, inference, performance optimization, and scalable infrastructure.
 
-Rather than focusing on isolated machine learning models, I design complete AI platforms covering the entire large language model lifecycle—from distributed training and fine-tuning to optimized inference, retrieval, evaluation, and deployment.
+My work sits at the intersection of:
 
-My primary interests include:
-
-- Distributed LLM Training
-- High-Performance LLM Inference
-- CUDA & Triton Runtime Optimization
-- AI Infrastructure & Distributed Systems
-- Retrieval-Augmented Generation (RAG)
-- Multi-Agent AI Systems
-- RLHF & Statistical Model Evaluation
-- Cloud-Native Machine Learning Platforms
+**Machine Learning × Systems Engineering × GPU Computing × Production AI**
 
 ---
 
-# 🎯 Engineering Domains
+## 🚀 AI/ML Engineering Portfolio
 
-<table>
-<tr>
-<td valign="top" width="33%">
+Six systems — each covering a different layer of the AI/ML lifecycle.
 
-### 🧠 AI/ML Engineering
+### 01 · AetherScale-RAG
 
-- Large Language Models
-- PyTorch
-- Transformers
-- RLHF
-- PEFT
-- LoRA / QLoRA
-- RAG
-- Multi-Agent AI
+**Retrieval & Production AI**
 
-</td>
+RAG infrastructure for building retrieval-augmented LLM applications, covering ingestion, retrieval, context construction, and production-oriented serving.
 
-<td valign="top" width="33%">
+→ **Data & Retrieval**
 
-### ⚙️ AI Systems Engineering
+### 02 · OmniPEFT
 
-- CUDA
-- Triton
-- C++20
-- Ray
-- DeepSpeed
-- FSDP
-- Tensor Parallelism
-- LLM Serving
+**Training & Fine-Tuning**
 
-</td>
+Unified parameter-efficient fine-tuning infrastructure for adapting foundation models with modern PEFT techniques.
 
-<td valign="top" width="33%">
+→ **Model Adaptation**
 
-### ☁️ Production Infrastructure
+### 03 · EvalAgent-Platform
 
-- Docker
-- Kubernetes
-- Kafka
-- Redis
-- FastAPI
-- Prometheus
-- Grafana
-- MLflow
+**Evaluation & Experimentation**
 
-</td>
-</tr>
-</table>
+AI evaluation infrastructure for measuring model quality, running experiments, analyzing failures, and making model improvements measurable.
 
----
+→ **Evaluation & Research**
 
-# 🚀 Production AI Portfolio
+### 04 · NexusCache-Engine
 
-The repositories below are designed as complementary components of a modern production AI stack, covering the complete lifecycle of large language model systems—from distributed training to deployment.
+**Memory & Performance Infrastructure**
 
-| Repository | Engineering Domain |
-|------------|--------------------|
-| **VortexGrid-Engine** | Distributed LLM Training |
-| **OmniPEFT** | Parameter-Efficient Fine-Tuning |
-| **CUDAForge** | CUDA Runtime & High-Performance Inference |
-| **NexusCache-Engine** | Production LLM Serving |
-| **AetherScale-RAG** | Enterprise Retrieval Infrastructure |
-| **EvalAgent-Platform** | Multi-Agent AI & RLHF Evaluation |
+High-performance caching infrastructure designed around memory efficiency, reuse, latency reduction, and workload-aware execution.
+
+→ **Optimization & Serving**
+
+### 05 · VortexGrid-Engine
+
+**Distributed AI Systems**
+
+Distributed execution infrastructure focused on scalable workloads, scheduling, workers, communication, and resource coordination.
+
+→ **Scaling & Distributed Systems**
+
+### 06 · CUDAForge
+
+**GPU Inference & Kernel Engineering**
+
+GPU-optimized LLM inference runtime built around C++20, CUDA, Triton, custom kernels, KV-cache management, batching, quantization, and performance engineering.
+
+→ **GPU Computing & Inference**
 
 ---
-# 🏗 Production AI Systems Architecture
 
-My portfolio is structured as a complete production AI ecosystem covering the entire lifecycle of modern large language models.
+## 🧩 The Engineering Path
 
 ```text
-                               Production AI Stack
-
-                 ┌────────────────────────────────────────┐
-                 │     VortexGrid-Engine                  │
-                 │  Distributed LLM Training Platform     │
-                 └──────────────────┬─────────────────────┘
-                                    │
-                                    ▼
-                 ┌────────────────────────────────────────┐
-                 │         OmniPEFT                       │
-                 │  Parameter-Efficient Fine-Tuning       │
-                 └──────────────────┬─────────────────────┘
-                                    │
-                                    ▼
-                 ┌────────────────────────────────────────┐
-                 │        CUDAForge                       │
-                 │ CUDA Runtime & Inference Optimization  │
-                 └──────────────────┬─────────────────────┘
-                                    │
-                                    ▼
-                 ┌────────────────────────────────────────┐
-                 │      NexusCache-Engine                 │
-                 │ Production LLM Serving Infrastructure  │
-                 └──────────────────┬─────────────────────┘
-                                    │
-                                    ▼
-                 ┌────────────────────────────────────────┐
-                 │       AetherScale-RAG                  │
-                 │ Enterprise Retrieval Infrastructure    │
-                 └──────────────────┬─────────────────────┘
-                                    │
-                                    ▼
-                 ┌────────────────────────────────────────┐
-                 │      EvalAgent-Platform                │
-                 │ Multi-Agent Runtime & RLHF Evaluation  │
-                 └────────────────────────────────────────┘
+                 AI / ML SYSTEMS
+                       │
+                       ▼
+              ┌─────────────────┐
+              │  RAG & Retrieval│
+              └────────┬────────┘
+                       ▼
+              ┌─────────────────┐
+              │ Fine-Tuning     │
+              └────────┬────────┘
+                       ▼
+              ┌─────────────────┐
+              │ Evaluation      │
+              └────────┬────────┘
+                       ▼
+              ┌─────────────────┐
+              │ Optimization    │
+              └────────┬────────┘
+                       ▼
+              ┌─────────────────┐
+              │ Distributed     │
+              │ Infrastructure  │
+              └────────┬────────┘
+                       ▼
+              ┌─────────────────┐
+              │ GPU Inference   │
+              └─────────────────┘
 ```
 
----
-
-# ⚙ Engineering Expertise
-
-<table>
-<tr>
-
-<td valign="top" width="33%">
-
-### 🧠 AI/ML Engineering
-
-- Large Language Models
-- Transformer Architectures
-- Distributed Deep Learning
-- Fine-Tuning
-- RLHF
-- Preference Optimization
-- Retrieval-Augmented Generation
-- Multi-Agent AI
-
-</td>
-
-<td valign="top" width="33%">
-
-### ⚡ AI/ML Systems Engineering
-
-- CUDA
-- Triton
-- C++20
-- PyTorch
-- Ray
-- DeepSpeed
-- FSDP
-- Tensor Parallelism
-- KV Cache Optimization
-- FlashAttention
-- High-Performance Inference
-- Distributed Runtime Systems
-
-</td>
-
-<td valign="top" width="33%">
-
-### 📊 Full-Stack Data Science
-
-- Statistical Evaluation
-- Bootstrap Confidence Intervals
-- Bayesian Optimization
-- Optuna
-- MLflow
-- Weights & Biases
-- Experiment Tracking
-- A/B Testing
-- Benchmarking
-- Data Pipelines
-- Feature Engineering
-
-</td>
-
-</tr>
-</table>
+> **From building models and AI applications to optimizing the infrastructure underneath them.**
 
 ---
 
-# 🛠 Technology Stack
+## ⚙️ Core Stack
 
-### Programming Languages
+**Languages**
+Python · C++20 · SQL
 
-`Python` • `C++20` • `CUDA` • `Triton` • `SQL`
+**AI / ML**
+PyTorch · Transformers · PEFT · LLMs · RAG · Evaluation
 
-### AI & Machine Learning
+**GPU / Performance**
+CUDA · Triton · GPU Kernels · CUDA Profiling · Quantization
 
-`PyTorch` • `Transformers` • `PEFT` • `DeepSpeed` • `FSDP` • `Ray` • `LangGraph`
+**Systems / Infrastructure**
+FastAPI · Docker · Kubernetes · Ray · Distributed Systems
 
-### Distributed Systems
-
-`Docker` • `Kubernetes` • `Kafka` • `Redis` • `FastAPI`
-
-### Data & Retrieval
-
-`Qdrant` • `PostgreSQL` • `Redis` • `RAG`
-
-### Observability
-
-`Prometheus` • `Grafana` • `MLflow` • `Weights & Biases` • `OpenTelemetry`
-
----
-
-# 🎯 Current Objectives
-
-My current work focuses on designing and implementing production-grade AI infrastructure with emphasis on:
-
-- Distributed LLM Training Systems
-- CUDA & Triton Performance Optimization
-- High-Performance LLM Inference
-- Production LLM Serving
-- Retrieval-Augmented Generation (RAG)
-- Multi-Agent AI Systems
-- RLHF & Evaluation Frameworks
-- Distributed GPU Computing
-- Cloud-Native AI Platforms
-- End-to-End MLOps & Observability
-
----
-
-# 💼 Professional Experience
-
-### AI Research Intern
-**Genetics Department, El Demerdash Hospital, Ain Shams University**
-
-**October 2024 – January 2026**
-
-Applied machine learning research to computational genetics, contributing to AI-driven biomedical research, data analysis, experimentation, and model evaluation.
-
----
-
-### AI Research Intern
-**Zagazig University**
-
-**January 2026 – August 2026**
-
-Conducted applied AI research involving machine learning, statistical analysis, experimentation, model development, and performance evaluation.
-
----
-
-# 🎓 Education
-
-### Bachelor of Medicine & Surgery
-**Faculty of Medicine, MTI University, Egypt**
-
-Completed concurrently with **bachelor-level education in Artificial Intelligence & Machine Learning** through the **Faculty of Computer Science & Artificial Intelligence**, with coursework in Machine Learning, Deep Learning, Artificial Intelligence, Data Science, Computer Vision, Natural Language Processing, Data Structures & Algorithms, Database Systems, and Software Engineering.
-
-**2019 – 2024**
-
----
-
-# 🔬 Research Interests
-
-- Large Language Models
-- AI Infrastructure
-- Distributed Systems
-- High-Performance Computing
-- CUDA Runtime Optimization
-- Retrieval Systems
-- Multi-Agent AI
-- Reinforcement Learning from Human Feedback (RLHF)
-- AI Systems Engineering
-- Cloud-Native Machine Learning
-
----
-
-# 🤝 Open To
-
-I'm interested in opportunities involving:
-
-- AI/ML Systems Engineering
-- AI/ML Engineering
-- Full-Stack Data Science
-- LLM Infrastructure
-- Distributed AI Systems
-- Production Machine Learning
-- Applied AI Research
-
----
-
-# 📫 Connect
-
-- 📧 **Email:** **bahaasamir140@gmail.com**
-- 💼 **LinkedIn: **https://www.linkedin.com/in/bahaa-samir**
-- 📄 **Resume:** [Bahaa-ML-Resume.pdf](https://github.com/user-attachments/files/30708779/Bahaa-ML-Resume.pdf)
-*
+**Engineering**
+Linux · CI/CD · Testing · Benchmarking · Observability · Performance Engineering
 
 ---
 
 <div align="center">
 
-## Engineering Philosophy
-
-> **Building scalable, high-performance AI systems that span the complete LLM lifecycle—from distributed training and optimization to inference, retrieval, evaluation, and cloud-native deployment.**
-
----
-
-⭐ **Thank you for visiting my GitHub profile.**
-
-I enjoy building production AI infrastructure and sharing engineering-focused open-source projects exploring the complete lifecycle of modern machine learning systems.
+**[LinkedIn]([linkedin.com/in/bahaa-samir)) · [Resume]([Bahaa-ML-Resume-1.pdf](https://github.com/user-attachments/files/31098441/Bahaa-ML-Resume-1.pdf)
+) · [Contact](mailto:bahaasamir140@gmail.comL)**
 
 </div>
