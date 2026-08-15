@@ -2,11 +2,11 @@
 
 # Bahaa Labs
 
-### AI/ML Engineer · AI/ML Systems Engineer · Full-Stack Data Scientist
+### AI/ML Engineer · Data Scientist
 
-**Building end-to-end AI systems from data and experimentation to models, inference, and production infrastructure.**
+**Building end-to-end AI/ML solutions from data and experimentation to models, evaluation, and production.**
 
-`Machine Learning` · `LLMs` · `Data Science` · `RAG` · `Fine-Tuning` · `Evaluation` · `Distributed Systems` · `GPU Computing`
+`Machine Learning` · `Deep Learning` · `Data Science` · `LLMs` · `RAG` · `Fine-Tuning` · `Evaluation` · `MLOps`
 
 </div>
 
@@ -14,11 +14,13 @@
 
 ## What I Build
 
-I engineer **end-to-end AI/ML systems** spanning model adaptation, evaluation, inference, performance optimization, and scalable infrastructure.
+I develop **end-to-end AI/ML solutions** spanning data analysis, model development, experimentation, evaluation, optimization, and deployment.
 
-My work sits at the intersection of:
+My work combines:
 
-**Machine Learning × Systems Engineering × GPU Computing × Production AI**
+**Data Science × Machine Learning × Deep Learning × AI Engineering × Production**
+
+From understanding and preparing data, to training and evaluating models, to building scalable AI systems and deploying them into production.
 
 ---
 
@@ -28,41 +30,41 @@ Six systems — each covering a different layer of the AI/ML lifecycle.
 
 ### 01 · AetherScale-RAG
 
-**Retrieval & Production AI**
+**Data, Retrieval & LLM Applications**
 
-RAG infrastructure for building retrieval-augmented LLM applications, covering ingestion, retrieval, context construction, and production-oriented serving.
+RAG infrastructure for building retrieval-augmented LLM applications, covering ingestion, retrieval, context construction, evaluation, and production-oriented serving.
 
 → **Data & Retrieval**
 
 ### 02 · OmniPEFT
 
-**Training & Fine-Tuning**
+**Model Training & Fine-Tuning**
 
-Unified parameter-efficient fine-tuning infrastructure for adapting foundation models with modern PEFT techniques.
+Unified parameter-efficient fine-tuning infrastructure for adapting foundation models with modern PEFT techniques and reproducible training workflows.
 
-→ **Model Adaptation**
+→ **Training & Model Adaptation**
 
 ### 03 · EvalAgent-Platform
 
 **Evaluation & Experimentation**
 
-AI evaluation infrastructure for measuring model quality, running experiments, analyzing failures, and making model improvements measurable.
+AI evaluation infrastructure for measuring model quality, running experiments, analyzing failures, and turning model behavior into measurable engineering signals.
 
 → **Evaluation & Research**
 
 ### 04 · NexusCache-Engine
 
-**Memory & Performance Infrastructure**
+**Optimization & Serving Infrastructure**
 
-High-performance caching infrastructure designed around memory efficiency, reuse, latency reduction, and workload-aware execution.
+High-performance caching infrastructure designed around memory efficiency, data reuse, latency reduction, and workload-aware execution.
 
-→ **Optimization & Serving**
+→ **Performance & Infrastructure**
 
 ### 05 · VortexGrid-Engine
 
 **Distributed AI Systems**
 
-Distributed execution infrastructure focused on scalable workloads, scheduling, workers, communication, and resource coordination.
+Distributed execution infrastructure focused on scalable workloads, scheduling, workers, communication, resource coordination, and reliable execution.
 
 → **Scaling & Distributed Systems**
 
@@ -70,45 +72,49 @@ Distributed execution infrastructure focused on scalable workloads, scheduling, 
 
 **GPU Inference & Kernel Engineering**
 
-GPU-optimized LLM inference runtime built around C++20, CUDA, Triton, custom kernels, KV-cache management, batching, quantization, and performance engineering.
+GPU-optimized LLM inference runtime built around C++20, CUDA, Triton, custom kernels, KV-cache management, continuous batching, quantization, and performance engineering.
 
 → **GPU Computing & Inference**
 
 ---
 
-## 🧩 The Engineering Path
+## 🧩 The AI/ML Engineering Path
 
 ```text
-                 AI / ML SYSTEMS
-                       │
-                       ▼
-              ┌─────────────────┐
-              │  RAG & Retrieval│
-              └────────┬────────┘
-                       ▼
-              ┌─────────────────┐
-              │ Fine-Tuning     │
-              └────────┬────────┘
-                       ▼
-              ┌─────────────────┐
-              │ Evaluation      │
-              └────────┬────────┘
-                       ▼
-              ┌─────────────────┐
-              │ Optimization    │
-              └────────┬────────┘
-                       ▼
-              ┌─────────────────┐
-              │ Distributed     │
-              │ Infrastructure  │
-              └────────┬────────┘
-                       ▼
-              ┌─────────────────┐
-              │ GPU Inference   │
-              └─────────────────┘
+                    AI / ML LIFECYCLE
+                           │
+                           ▼
+                  ┌─────────────────┐
+                  │ Data & Retrieval│
+                  └────────┬────────┘
+                           ▼
+                  ┌─────────────────┐
+                  │ Model Training  │
+                  │ & Fine-Tuning   │
+                  └────────┬────────┘
+                           ▼
+                  ┌─────────────────┐
+                  │ Evaluation &    │
+                  │ Experimentation │
+                  └────────┬────────┘
+                           ▼
+                  ┌─────────────────┐
+                  │ Optimization &  │
+                  │ Serving         │
+                  └────────┬────────┘
+                           ▼
+                  ┌─────────────────┐
+                  │ Distributed     │
+                  │ Infrastructure  │
+                  └────────┬────────┘
+                           ▼
+                  ┌─────────────────┐
+                  │ GPU Inference & │
+                  │ Acceleration    │
+                  └─────────────────┘
 ```
 
-> **From building models and AI applications to optimizing the infrastructure underneath them.**
+> **From data and models to evaluation, optimization, scalable systems, and production AI.**
 
 ---
 
@@ -118,16 +124,19 @@ GPU-optimized LLM inference runtime built around C++20, CUDA, Triton, custom ker
 Python · C++20 · C · SQL
 
 **AI / ML**
-PyTorch · Transformers · PEFT · LLMs · RAG · Evaluation
+PyTorch · Transformers · PEFT · LLMs · RAG · Deep Learning · Evaluation
+
+**Data & Experimentation**
+Data Processing · Feature Engineering · Experimentation · Benchmarking · Model Evaluation
 
 **GPU / Performance**
-CUDA · Triton · GPU Kernels · CUDA Profiling · Quantization
+CUDA · Triton · GPU Kernels · CUDA Profiling · Quantization · Inference Optimization
 
 **Systems / Infrastructure**
 FastAPI · Docker · Kubernetes · Ray · Distributed Systems
 
 **Engineering**
-Linux · CI/CD · Testing · Benchmarking · Observability · Performance Engineering
+Linux · CI/CD · Testing · Observability · Performance Engineering
 
 ---
 
