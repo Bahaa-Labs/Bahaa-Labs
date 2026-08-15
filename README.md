@@ -115,7 +115,7 @@ GPU-optimized LLM inference runtime built around C++20, CUDA, Triton, custom ker
 ## ⚙️ Core Stack
 
 **Languages**
-Python · C++20 · SQL
+Python · C++20 · C · SQL
 
 **AI / ML**
 PyTorch · Transformers · PEFT · LLMs · RAG · Evaluation
