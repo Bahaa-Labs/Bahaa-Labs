@@ -1,11 +1,12 @@
 <div align="center">
 
-Bahaa Samir
-AI/ML Engineer · Machine Learning Systems · AI Infrastructure
+# Bahaa Samir
 
-Engineering production-oriented AI systems across data, models, evaluation, distributed infrastructure, and GPU-accelerated inference.
+### AI/ML Engineer · Machine Learning Systems · AI Infrastructure
 
-Python · C++20 · TypeScript · PyTorch · CUDA · Triton · LLMs · RAG · Distributed Systems · Cloud
+**Engineering production-oriented AI systems across data, models, evaluation, distributed infrastructure, and GPU-accelerated inference.**
+
+`Python` · `C++20` · `TypeScript` · `PyTorch` · `CUDA` · `Triton` · `LLMs` · `RAG` · `Distributed Systems` · `Cloud`
 
 </div>
 
@@ -112,6 +113,15 @@ Strong AI systems require more than model quality. They require efficient data p
 
 That is where I focus my work.
 
+---
+
+<div align="center">
+
+**AI/ML Engineering · Systems · Performance · Cloud · Infrastructure**
+
+[LinkedIn](https://www.linkedin.com/in/bahaa-samir/) · [Resume](https://github.com/user-attachments/files/31103015/Bahaa-ML-Resume.pdf) · [Contact](mailto:bahaasamir140@gmail.com)
+
+</div>
 ---
 
 <div align="center">
