@@ -117,17 +117,6 @@ That is where I focus my work.
 
 <div align="center">
 
-**AI/ML Engineering · Systems · Performance · Cloud · Infrastructure**
-
-[LinkedIn](https://www.linkedin.com/in/bahaa-samir/) · [Resume](https://github.com/user-attachments/files/31103015/Bahaa-ML-Resume.pdf) · [Contact](mailto:bahaasamir140@gmail.com)
-
-</div>
-
-
----
-
-<div align="center">
-
 **[LinkedIn](https://www.linkedin.com/in/bahaa-samir/) · [Resume](https://github.com/user-attachments/files/31103015/Bahaa-ML-Resume.pdf) · [Contact](mailto:bahaasamir140@gmail.com)**
 
 </div>
