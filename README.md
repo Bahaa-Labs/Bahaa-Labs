@@ -1,142 +1,124 @@
+# Bahaa Samir
+
+### AI/ML Engineer · Machine Learning Systems · AI Infrastructure
+
+**Engineering production-oriented AI systems across data, models, evaluation, distributed infrastructure, and GPU-accelerated inference.**
+
+`Python` · `C++20` · `TypeScript` · `PyTorch` · `CUDA` · `Triton` · `LLMs` · `RAG` · `Distributed Systems` · `Cloud`
+
+---
+
+## Engineering Focus
+
+I build **end-to-end AI/ML systems** where modeling, data, infrastructure, and performance engineering meet.
+
+My work spans the full path from **data and model development to evaluation, optimization, scalable serving, and production execution**.
+
+**Data → Models → Evaluation → Optimization → Distributed Systems → Cloud & GPU Infrastructure**
+
+The focus is not only building models, but engineering the **systems around them** to make AI workloads measurable, efficient, scalable, and production-ready.
+
+---
+
+## Selected Systems
+
+### AetherScale-RAG
+
+**Retrieval & LLM Systems**
+
+RAG infrastructure covering ingestion, retrieval, context construction, evaluation, and production-oriented serving.
+
+**Focus:** Retrieval Systems · LLM Applications · Data Pipelines · Evaluation
+
+---
+
+### OmniPEFT
+
+**Foundation Model Adaptation**
+
+Parameter-efficient fine-tuning infrastructure for adapting foundation models through reproducible and resource-efficient training workflows.
+
+**Focus:** PyTorch · Transformers · PEFT · Training Systems · Experimentation
+
+---
+
+### EvalAgent-Platform
+
+**AI Evaluation Infrastructure**
+
+Evaluation platform for systematically measuring model behavior, running experiments, analyzing failures, and converting model performance into actionable engineering signals.
+
+**Focus:** Evaluation · Benchmarking · Experimentation · Quality Engineering
+
+---
+
+### NexusCache-Engine
+
+**High-Performance Infrastructure**
+
+Memory-efficient caching infrastructure designed around data reuse, latency reduction, workload characteristics, and efficient execution.
+
+**Focus:** Caching · Memory Efficiency · Performance Engineering · Systems Design
+
+---
+
+### VortexGrid-Engine
+
+**Distributed AI Infrastructure**
+
+Distributed execution infrastructure for scalable workloads, scheduling, worker coordination, communication, resource management, and reliable execution.
+
+**Focus:** Distributed Systems · Scheduling · Concurrency · Resource Management
+
+---
+
+### CUDAForge
+
+**GPU-Accelerated LLM Inference**
+
+High-performance LLM inference runtime built with **C++20, CUDA, and Triton**, incorporating custom GPU kernels, paged KV-cache, continuous batching, quantization, autotuning, and speculative decoding.
+
+**Focus:** CUDA · GPU Kernels · LLM Inference · Performance Optimization · Systems Programming
+
+---
+
+## Technical Depth
+
+**Languages**
+Python · C++20 · C · TypeScript · SQL
+
+**Machine Learning**
+PyTorch · Transformers · PEFT · Deep Learning · LLMs · RAG · Model Evaluation
+
+**Systems & Infrastructure**
+Distributed Systems · Scheduling · Caching · Concurrency · Resource Management · Linux
+
+**GPU & Performance**
+CUDA · Triton · Custom Kernels · GPU Profiling · Quantization · Inference Optimization
+
+**Cloud & Production**
+AWS · Azure · GCP · Docker · Kubernetes · Ray · FastAPI · CI/CD · Testing · Observability
+
+---
+
+## Engineering Philosophy
+
+> **Build beyond the model.**
+
+Strong AI systems require more than model quality. They require efficient data pipelines, rigorous evaluation, reliable infrastructure, scalable execution, and performance-aware systems engineering.
+
+That is where I focus my work.
+
+---
+
 <div align="center">
 
-# Bahaa Labs
+**AI/ML Engineering · Systems · Performance · Cloud · Infrastructure**
 
-### AI/ML Engineer · Data Scientist
-
-**Building end-to-end AI/ML solutions from data and experimentation to models, evaluation, and production.**
-
-`Machine Learning` · `Deep Learning` · `Data Science` · `LLMs` · `RAG` · `Fine-Tuning` · `Evaluation` · `MLOps`
+[LinkedIn](https://www.linkedin.com/in/bahaa-samir/) · [Resume](https://github.com/user-attachments/files/31103015/Bahaa-ML-Resume.pdf) · [Contact](mailto:bahaasamir140@gmail.com)
 
 </div>
 
----
-
-## What I Build
-
-I develop **end-to-end AI/ML solutions** spanning data analysis, model development, experimentation, evaluation, optimization, and deployment.
-
-My work combines:
-
-**Data Science × Machine Learning × Deep Learning × AI Engineering × Production**
-
-From understanding and preparing data, to training and evaluating models, to building scalable AI systems and deploying them into production.
-
----
-
-## 🚀 AI/ML Engineering Portfolio
-
-Six systems — each covering a different layer of the AI/ML lifecycle.
-
-### 01 · AetherScale-RAG
-
-**Data, Retrieval & LLM Applications**
-
-RAG infrastructure for building retrieval-augmented LLM applications, covering ingestion, retrieval, context construction, evaluation, and production-oriented serving.
-
-→ **Data & Retrieval**
-
-### 02 · OmniPEFT
-
-**Model Training & Fine-Tuning**
-
-Unified parameter-efficient fine-tuning infrastructure for adapting foundation models with modern PEFT techniques and reproducible training workflows.
-
-→ **Training & Model Adaptation**
-
-### 03 · EvalAgent-Platform
-
-**Evaluation & Experimentation**
-
-AI evaluation infrastructure for measuring model quality, running experiments, analyzing failures, and turning model behavior into measurable engineering signals.
-
-→ **Evaluation & Research**
-
-### 04 · NexusCache-Engine
-
-**Optimization & Serving Infrastructure**
-
-High-performance caching infrastructure designed around memory efficiency, data reuse, latency reduction, and workload-aware execution.
-
-→ **Performance & Infrastructure**
-
-### 05 · VortexGrid-Engine
-
-**Distributed AI Systems**
-
-Distributed execution infrastructure focused on scalable workloads, scheduling, workers, communication, resource coordination, and reliable execution.
-
-→ **Scaling & Distributed Systems**
-
-### 06 · CUDAForge
-
-**GPU Inference & Kernel Engineering**
-
-GPU-optimized LLM inference runtime built around C++20, CUDA, Triton, custom kernels, KV-cache management, continuous batching, quantization, and performance engineering.
-
-→ **GPU Computing & Inference**
-
----
-
-## 🧩 The AI/ML Engineering Path
-
-```text
-                    AI / ML LIFECYCLE
-                           │
-                           ▼
-                  ┌─────────────────┐
-                  │ Data & Retrieval│
-                  └────────┬────────┘
-                           ▼
-                  ┌─────────────────┐
-                  │ Model Training  │
-                  │ & Fine-Tuning   │
-                  └────────┬────────┘
-                           ▼
-                  ┌─────────────────┐
-                  │ Evaluation &    │
-                  │ Experimentation │
-                  └────────┬────────┘
-                           ▼
-                  ┌─────────────────┐
-                  │ Optimization &  │
-                  │ Serving         │
-                  └────────┬────────┘
-                           ▼
-                  ┌─────────────────┐
-                  │ Distributed     │
-                  │ Infrastructure  │
-                  └────────┬────────┘
-                           ▼
-                  ┌─────────────────┐
-                  │ GPU Inference & │
-                  │ Acceleration    │
-                  └─────────────────┘
-```
-
-> **From data and models to evaluation, optimization, scalable systems, and production AI.**
-
----
-
-## ⚙️ Core Stack
-
-**Languages**
-Python · C++20 · C · SQL
-
-**AI / ML**
-PyTorch · Transformers · PEFT · LLMs · RAG · Deep Learning · Evaluation
-
-**Data & Experimentation**
-Data Processing · Feature Engineering · Experimentation · Benchmarking · Model Evaluation
-
-**GPU / Performance**
-CUDA · Triton · GPU Kernels · CUDA Profiling · Quantization · Inference Optimization
-
-**Systems / Infrastructure**
-FastAPI · Docker · Kubernetes · Ray · Distributed Systems
-
-**Engineering**
-Linux · CI/CD · Testing · Observability · Performance Engineering
 
 ---
 
