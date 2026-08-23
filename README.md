@@ -105,6 +105,6 @@ That is where I focus my engineering work.
 
 <div align="center">
 
-**[LinkedIn](https://www.linkedin.com/in/bahaa-samir/) · [Resume](https://github.com/user-attachments/files/31352083/Bahaa_ML_Resume.pdf) · [Contact](mailto:bahaasamir140@gmail.com)**
+**[LinkedIn](https://www.linkedin.com/in/bahaa-samir/) · [Resume](https://github.com/user-attachments/files/31352195/Bahaa_ML_Resume.pdf) · [Contact](mailto:bahaasamir140@gmail.com)**
 
 </div>
