@@ -2,9 +2,9 @@
 
 # Bahaa Samir
 
-### AI/ML Engineer · ML Systems · AI Infrastructure
+### AI/ML Engineer · ML Systems · AI Infrastructure · LLM Inference
 
-**Engineering high-performance AI systems across inference, distributed training, evaluation, retrieval, and GPU-accelerated computing.**
+**Engineering and optimizing high-performance AI systems across LLM inference, distributed training, evaluation, retrieval, and GPU infrastructure.**
 
 `Python` · `C++20` · `TypeScript` · `PyTorch` · `CUDA` · `Triton` · `LLMs` · `RAG` · `Distributed Systems` · `Cloud`
 
@@ -16,13 +16,15 @@
 
 ## Engineering Focus
 
-I build **AI/ML systems end-to-end**, from model execution and evaluation to distributed infrastructure, GPU optimization, and production-oriented serving.
+I build **AI/ML systems end-to-end**, from model execution and evaluation through distributed infrastructure, GPU optimization, and production-oriented serving.
 
-My focus is the engineering layer beneath modern AI workloads:
+My work focuses on the engineering layer beneath modern AI workloads:
 
 **Models → Evaluation → Optimization → Inference → Distributed Execution → GPU & Cloud Infrastructure**
 
-I care about systems that are not only functional, but **measurable, reproducible, efficient, scalable, and validated against performance and correctness requirements.**
+**Specialization:** LLM Inference · GPU Performance · Distributed ML Systems · AI Infrastructure
+
+I focus on systems that are **measurable, reproducible, efficient, scalable, and validated against performance and correctness requirements.**
 
 ---
 
@@ -32,7 +34,9 @@ I care about systems that are not only functional, but **measurable, reproducibl
 
 **GPU-Optimized LLM Inference Runtime**
 
-High-performance inference infrastructure built with **C++20, CUDA, Triton, and PyTorch**, combining custom GPU kernels, paged KV-cache management, continuous batching, quantization, speculative decoding, and kernel autotuning.
+GPU-optimized LLM inference runtime engineered across **C++20, CUDA, Triton, PyTorch, GPU memory management, scheduling, serving, and performance validation**.
+
+Combines custom GPU kernels, paged KV-cache management, continuous batching, quantization, speculative decoding, and kernel autotuning.
 
 **Measured Results**
 
@@ -60,7 +64,7 @@ Native **C++/CUDA** serving infrastructure focused on dynamic paged KV-cache all
 
 **Distributed ML Training Infrastructure**
 
-Distributed training platform covering **DDP, FSDP, DeepSpeed ZeRO, Tensor Parallelism, NCCL, Ray, checkpoint recovery, telemetry, and Kubernetes-oriented execution.**
+Distributed training platform covering **DDP, FSDP, DeepSpeed ZeRO, Tensor Parallelism, NCCL, Ray, checkpoint recovery, telemetry, and Kubernetes-oriented execution**.
 
 **Measured Result**
 
@@ -88,9 +92,9 @@ Distributed evaluation platform combining **LangGraph, Ray, Kafka, hierarchical 
 
 ### [AetherScale-RAG](https://github.com/Bahaa-Labs/AetherScale-RAG)
 
-**Enterprise Retrieval & RAG Infrastructure**
+**Distributed Retrieval & RAG Infrastructure**
 
-Distributed retrieval platform combining **hybrid sparse/dense search, BM25, RRF, Ray-based ingestion, native C++ re-ranking, Qdrant, and statistical evaluation.**
+Distributed retrieval platform combining **hybrid sparse/dense search, BM25, RRF, Ray-based ingestion, native C++ re-ranking, Qdrant, and statistical evaluation**.
 
 **Measured Results**
 
@@ -112,7 +116,7 @@ Training infrastructure for resource-efficient foundation model adaptation, repr
 
 ## Engineering Evidence
 
-My projects are structured around the full engineering lifecycle:
+I approach AI engineering as a complete systems lifecycle:
 
 ```text
 Architecture
@@ -134,7 +138,7 @@ Testing & Observability
 Containerized / Distributed Execution
 ```
 
-Across the portfolio, this includes:
+Across the portfolio:
 
 * GPU kernel development and profiling
 * Native C++ / CUDA extensions
