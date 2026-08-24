@@ -182,13 +182,3 @@ Modern AI performance is shaped by far more than model architecture.
 It depends on **memory movement, kernel efficiency, scheduling, distributed execution, retrieval quality, evaluation methodology, observability, and operational reliability.**
 
 That is the layer where I focus my engineering work.
-
----
-
-<div align="center">
-
-### Building AI systems that are measurable, efficient, scalable, and reproducible.
-
-[LinkedIn](https://www.linkedin.com/in/bahaa-samir/) · [GitHub](https://github.com/Bahaa-Labs) · [Email](mailto:bahaasamir140@gmail.com)
-
-</div>
