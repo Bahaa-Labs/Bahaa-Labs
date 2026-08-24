@@ -4,9 +4,11 @@
 
 ### AI/ML Engineer · ML Systems · AI Infrastructure
 
-**Building production-oriented AI systems across model development, evaluation, distributed execution, and GPU-accelerated inference.**
+**Engineering high-performance AI systems across inference, distributed training, evaluation, retrieval, and GPU-accelerated computing.**
 
 `Python` · `C++20` · `TypeScript` · `PyTorch` · `CUDA` · `Triton` · `LLMs` · `RAG` · `Distributed Systems` · `Cloud`
+
+[LinkedIn](https://www.linkedin.com/in/bahaa-samir/) · [GitHub](https://github.com/Bahaa-Labs) · [Email](mailto:bahaasamir140@gmail.com)
 
 </div>
 
@@ -14,63 +16,135 @@
 
 ## Engineering Focus
 
-I engineer **AI/ML systems end-to-end**, spanning model development, evaluation, optimization, serving, and infrastructure.
+I build **AI/ML systems end-to-end**, from model execution and evaluation to distributed infrastructure, GPU optimization, and production-oriented serving.
 
-My work focuses on the systems that make AI workloads **efficient, measurable, scalable, and production-ready**.
+My focus is the engineering layer beneath modern AI workloads:
 
-**Data → Models → Evaluation → Optimization → Distributed Execution → GPU & Cloud Infrastructure**
+**Models → Evaluation → Optimization → Inference → Distributed Execution → GPU & Cloud Infrastructure**
+
+I care about systems that are not only functional, but **measurable, reproducible, efficient, scalable, and validated against performance and correctness requirements.**
 
 ---
 
-## Selected Systems
+## Core Systems
 
-### CUDAForge
+### [CUDAForge](https://github.com/Bahaa-Labs/CUDAForge)
 
-**GPU-Accelerated LLM Inference**
+**GPU-Optimized LLM Inference Runtime**
 
-High-performance inference runtime built with **C++20, CUDA, and Triton**, featuring custom GPU kernels, paged KV-cache, continuous batching, quantization, speculative decoding, and autotuning.
+High-performance inference infrastructure built with **C++20, CUDA, Triton, and PyTorch**, combining custom GPU kernels, paged KV-cache management, continuous batching, quantization, speculative decoding, and kernel autotuning.
 
-**Focus:** GPU Computing · LLM Inference · CUDA Kernels · Performance Engineering
+**Measured Results**
 
-### NexusCache-Engine
+`8.43×` attention speedup · `4.68 ms` P50 attention latency · `58.83 TFLOPS` attention throughput · `0.48 µs` KV-cache allocation · `15.35M tok/s` scheduler throughput
 
-**LLM Serving & Runtime Infrastructure**
+**Engineering:** CUDA · GPU Kernels · LLM Inference · Memory Management · Scheduling · Profiling · Performance Regression Testing
 
-High-performance serving infrastructure focused on **KV-cache management, memory efficiency, batching, scheduling, and low-latency execution**.
+---
 
-**Focus:** Systems Design · Memory Management · C++/CUDA · LLM Serving
+### [NexusCache-Engine](https://github.com/Bahaa-Labs/NexusCache-Engine)
 
-### VortexGrid-Engine
+**LLM Serving & Dynamic KV-Cache Infrastructure**
 
-**Distributed ML Infrastructure**
+Native **C++/CUDA** serving infrastructure focused on dynamic paged KV-cache allocation, continuous batching, asynchronous scheduling, GPU memory efficiency, and workload-aware optimization.
 
-Distributed training infrastructure for **multi-GPU and multi-node workloads**, covering execution, scheduling, communication, resource management, and fault-tolerant training.
+**Measured Results**
 
-**Focus:** Distributed Systems · Parallel Computing · Scheduling · Resource Management
+`92%` peak GPU utilization · `<35 ms` p95 response latency · `2.4×` serving batch capacity · `≈0%` external GPU fragmentation
 
-### EvalAgent-Platform
+**Engineering:** C++ · CUDA · KV-Cache · Ray · Scheduling · Memory Systems · LLM Serving
 
-**LLM Evaluation & Benchmarking Infrastructure**
+---
 
-Evaluation infrastructure for systematic model testing, experiment execution, failure analysis, and quantitative benchmarking of AI systems.
+### [VortexGrid-Engine](https://github.com/Bahaa-Labs/VortexGrid-Engine)
 
-**Focus:** Evaluation · Benchmarking · Experimentation · Quality Engineering
+**Distributed ML Training Infrastructure**
 
-### AetherScale-RAG
+Distributed training platform covering **DDP, FSDP, DeepSpeed ZeRO, Tensor Parallelism, NCCL, Ray, checkpoint recovery, telemetry, and Kubernetes-oriented execution.**
+
+**Measured Result**
+
+`>65%` GPU memory reduction across supported training strategies
+
+**Engineering:** Distributed Training · FSDP · ZeRO · NCCL · Fault Recovery · Multi-GPU Systems · Kubernetes
+
+---
+
+## AI Platforms
+
+### [EvalAgent-Platform](https://github.com/Bahaa-Labs/EvalAgent-Platform)
+
+**LLM Evaluation & Multi-Agent Infrastructure**
+
+Distributed evaluation platform combining **LangGraph, Ray, Kafka, hierarchical memory, RLHF-style evaluation, statistical experimentation, and observability**.
+
+**Measured Results**
+
+`<15 ms` streaming gateway latency · `72%` faster distributed evaluation · `<5 ms` hierarchical memory retrieval · `10,000+ events/sec` trajectory processing
+
+**Engineering:** LLM Evaluation · Multi-Agent Systems · Statistical Benchmarking · Distributed Execution · Observability
+
+---
+
+### [AetherScale-RAG](https://github.com/Bahaa-Labs/AetherScale-RAG)
 
 **Enterprise Retrieval & RAG Infrastructure**
 
-Distributed retrieval infrastructure covering **large-scale ingestion, hybrid search, re-ranking, evaluation, and production-oriented retrieval workflows**.
+Distributed retrieval platform combining **hybrid sparse/dense search, BM25, RRF, Ray-based ingestion, native C++ re-ranking, Qdrant, and statistical evaluation.**
 
-**Focus:** Retrieval Systems · Data Pipelines · RAG · Evaluation
+**Measured Results**
 
-### OmniPEFT
+`<14.2 ms` p99 retrieval latency · `18,400 docs/sec` re-ranking throughput · `0.842 MRR@10 (+38%)` · `94.1%` correlation with human rankings · `1M` documents ingested in `8.4 min`
 
-**Foundation Model Adaptation**
+**Engineering:** Retrieval Systems · RAG · C++ Acceleration · Distributed Pipelines · Vector Search · Evaluation
 
-Parameter-efficient fine-tuning infrastructure for **resource-efficient model adaptation, reproducible training, and quantitative evaluation**.
+---
 
-**Focus:** PyTorch · Transformers · PEFT · Training Systems
+### [OmniPEFT](https://github.com/Bahaa-Labs/OmniPEFT)
+
+**Parameter-Efficient Fine-Tuning & Model Evaluation**
+
+Training infrastructure for resource-efficient foundation model adaptation, reproducible fine-tuning, evaluation, and performance analysis.
+
+**Engineering:** PyTorch · Transformers · PEFT · QLoRA · Training Systems · Model Evaluation
+
+---
+
+## Engineering Evidence
+
+My projects are structured around the full engineering lifecycle:
+
+```text
+Architecture
+    ↓
+Implementation
+    ↓
+Benchmarking
+    ↓
+Profiling
+    ↓
+Correctness Validation
+    ↓
+Performance Optimization
+    ↓
+Regression Detection
+    ↓
+Testing & Observability
+    ↓
+Containerized / Distributed Execution
+```
+
+Across the portfolio, this includes:
+
+* GPU kernel development and profiling
+* Native C++ / CUDA extensions
+* Distributed execution and scheduling
+* Performance benchmarking and regression detection
+* Numerical correctness validation
+* Memory and cache optimization
+* Statistical evaluation and experimentation
+* Dockerized infrastructure and CI/CD
+* Monitoring and observability
 
 ---
 
@@ -82,14 +156,20 @@ Python · C++20 · C · TypeScript · SQL
 **Machine Learning**
 PyTorch · Transformers · PEFT · Deep Learning · LLMs · RAG · Model Evaluation
 
-**Systems & Infrastructure**
-Distributed Systems · Concurrency · Scheduling · Caching · Resource Management · Linux
+**AI Systems**
+LLM Inference · Model Serving · Multi-Agent Systems · Retrieval Systems · Evaluation Infrastructure
+
+**Distributed Systems**
+DDP · FSDP · DeepSpeed ZeRO · NCCL · Ray · Concurrency · Scheduling · Fault Recovery
 
 **GPU & Performance**
-CUDA · Triton · Custom Kernels · Quantization · GPU Profiling · Inference Optimization
+CUDA · Triton · Custom Kernels · Quantization · KV-Cache · GPU Profiling · Nsight Systems · Nsight Compute
 
-**Cloud & Production**
-AWS · Azure · GCP · Docker · Kubernetes · Ray · FastAPI · CI/CD · Observability
+**Infrastructure**
+Linux · Docker · Kubernetes · FastAPI · CI/CD · Prometheus · Grafana · OpenTelemetry
+
+**Cloud**
+AWS · Azure · GCP
 
 ---
 
@@ -97,14 +177,18 @@ AWS · Azure · GCP · Docker · Kubernetes · Ray · FastAPI · CI/CD · Observ
 
 > **Build beyond the model.**
 
-AI systems are defined not only by model quality, but by how effectively they **execute, scale, integrate, and perform in production**.
+Modern AI performance is shaped by far more than model architecture.
 
-That is where I focus my engineering work.
+It depends on **memory movement, kernel efficiency, scheduling, distributed execution, retrieval quality, evaluation methodology, observability, and operational reliability.**
+
+That is the layer where I focus my engineering work.
 
 ---
 
 <div align="center">
 
-**[LinkedIn](https://www.linkedin.com/in/bahaa-samir/) · [Resume](https://github.com/user-attachments/files/31352195/Bahaa_ML_Resume.pdf) · [Contact](mailto:bahaasamir140@gmail.com)**
+### Building AI systems that are measurable, efficient, scalable, and reproducible.
+
+[LinkedIn](https://www.linkedin.com/in/bahaa-samir/) · [GitHub](https://github.com/Bahaa-Labs) · [Email](mailto:bahaasamir140@gmail.com)
 
 </div>
