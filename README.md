@@ -8,7 +8,8 @@
 
 `Python` · `C++20` · `TypeScript` · `PyTorch` · `LLMs` · `Agentic AI` · `RAG` · `MCP` · `A2A` · `CUDA` · `Triton` · `Distributed Systems` · `Cloud`
 
-[LinkedIn](https://www.linkedin.com/in/bahaa-samir/) · [Resume](https://github.com/user-attachments/files/31482548/Bahaa-Resume.pdf) · [Email](mailto:bahaasamir140@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/bahaa-samir/) · [Resume]((https://github.com/user-attachments/files/31482785/Bahaa-Resume.pdf)
+) · [Email](mailto:bahaasamir140@gmail.com)
 
 </div>
 
