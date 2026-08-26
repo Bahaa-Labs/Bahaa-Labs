@@ -2,11 +2,11 @@
 
 # Bahaa Samir
 
-### AI/ML Engineer · ML Systems · AI Infrastructure · LLM Inference
+### AI/ML Engineer · Forward Deployed AI · Agentic AI · LLM Systems
 
-**Engineering and optimizing high-performance AI systems across LLM inference, distributed training, evaluation, retrieval, and GPU infrastructure.**
+**Building and deploying AI systems end-to-end across LLMs, Agentic AI, RAG, evaluation, inference, and ML infrastructure.**
 
-`Python` · `C++20` · `TypeScript` · `PyTorch` · `CUDA` · `Triton` · `LLMs` · `RAG` · `Distributed Systems` · `Cloud`
+`Python` · `C++20` · `TypeScript` · `PyTorch` · `LLMs` · `Agentic AI` · `RAG` · `MCP` · `A2A` · `CUDA` · `Triton` · `Distributed Systems` · `Cloud`
 
 [LinkedIn](https://www.linkedin.com/in/bahaa-samir/) · [Resume](https://github.com/user-attachments/files/31482548/Bahaa-Resume.pdf) · [Email](mailto:bahaasamir140@gmail.com)
 
@@ -16,19 +16,19 @@
 
 ## Engineering Focus
 
-I build **AI/ML systems end-to-end**, from model execution and evaluation through distributed infrastructure, GPU optimization, and production-oriented serving.
+I build **AI/ML systems end-to-end**, from problem discovery and model integration through agent workflows, retrieval, evaluation, deployment, and performance optimization.
 
-My work focuses on the engineering layer beneath modern AI workloads:
+My work spans the full AI engineering lifecycle:
 
-**Models → Evaluation → Optimization → Inference → Distributed Execution → GPU & Cloud Infrastructure**
+**Problem Discovery → Requirements → AI/ML Solution → Agentic Workflows → Integration → Evaluation → Deployment → Optimization**
 
-**Specialization:** LLM Inference · GPU Performance · Distributed ML Systems · AI Infrastructure
+**Focus:** AI/ML Engineering · Forward Deployed AI · Agentic AI · LLM Systems · GPU & Distributed ML
 
-I focus on systems that are **measurable, reproducible, efficient, scalable, and validated against performance and correctness requirements.**
+I build systems that are **measurable, reproducible, deployable, and validated against quality, performance, and reliability requirements.**
 
 ---
 
-## Core Systems
+## Core AI & ML Systems
 
 ### [CUDAForge](https://github.com/Bahaa-Labs/CUDAForge)
 
@@ -43,6 +43,34 @@ Combines custom GPU kernels, paged KV-cache management, continuous batching, qua
 `8.43×` attention speedup · `4.68 ms` P50 attention latency · `58.83 TFLOPS` attention throughput · `0.48 µs` KV-cache allocation · `15.35M tok/s` scheduler throughput
 
 **Engineering:** CUDA · GPU Kernels · LLM Inference · Memory Management · Scheduling · Profiling · Performance Regression Testing
+
+---
+
+### [EvalAgent-Platform](https://github.com/Bahaa-Labs/EvalAgent-Platform)
+
+**LLM Evaluation & Multi-Agent Infrastructure**
+
+Distributed multi-agent evaluation platform combining **agent workflows, MCP-based tool integration, A2A inter-agent communication, hierarchical memory, retrieval, statistical experimentation, and observability**.
+
+**Measured Results**
+
+`<15 ms` streaming gateway latency · `72%` faster distributed evaluation · `<5 ms` hierarchical memory retrieval · `10,000+ events/sec` trajectory processing
+
+**Engineering:** Agentic AI · Multi-Agent Systems · MCP · A2A · Tool Calling · LLM Evaluation · Distributed Execution · Observability
+
+---
+
+### [AetherScale-RAG](https://github.com/Bahaa-Labs/AetherScale-RAG)
+
+**Distributed Retrieval & RAG Infrastructure**
+
+Distributed retrieval platform combining **hybrid sparse/dense search, BM25, RRF, Ray-based ingestion, native C++ re-ranking, Qdrant, and statistical evaluation**.
+
+**Measured Results**
+
+`<14.2 ms` p99 retrieval latency · `18,400 docs/sec` re-ranking throughput · `0.842 MRR@10 (+38%)` · `94.1%` correlation with human rankings · `1M` documents ingested in `8.4 min`
+
+**Engineering:** Retrieval Systems · RAG · C++ Acceleration · Distributed Pipelines · Vector Search · Re-ranking · Evaluation
 
 ---
 
@@ -74,36 +102,6 @@ Distributed training platform covering **DDP, FSDP, DeepSpeed ZeRO, Tensor Paral
 
 ---
 
-## AI Platforms
-
-### [EvalAgent-Platform](https://github.com/Bahaa-Labs/EvalAgent-Platform)
-
-**LLM Evaluation & Multi-Agent Infrastructure**
-
-Distributed evaluation platform combining **LangGraph, Ray, Kafka, hierarchical memory, RLHF-style evaluation, statistical experimentation, and observability**.
-
-**Measured Results**
-
-`<15 ms` streaming gateway latency · `72%` faster distributed evaluation · `<5 ms` hierarchical memory retrieval · `10,000+ events/sec` trajectory processing
-
-**Engineering:** LLM Evaluation · Multi-Agent Systems · Statistical Benchmarking · Distributed Execution · Observability
-
----
-
-### [AetherScale-RAG](https://github.com/Bahaa-Labs/AetherScale-RAG)
-
-**Distributed Retrieval & RAG Infrastructure**
-
-Distributed retrieval platform combining **hybrid sparse/dense search, BM25, RRF, Ray-based ingestion, native C++ re-ranking, Qdrant, and statistical evaluation**.
-
-**Measured Results**
-
-`<14.2 ms` p99 retrieval latency · `18,400 docs/sec` re-ranking throughput · `0.842 MRR@10 (+38%)` · `94.1%` correlation with human rankings · `1M` documents ingested in `8.4 min`
-
-**Engineering:** Retrieval Systems · RAG · C++ Acceleration · Distributed Pipelines · Vector Search · Evaluation
-
----
-
 ### [OmniPEFT](https://github.com/Bahaa-Labs/OmniPEFT)
 
 **Parameter-Efficient Fine-Tuning & Model Evaluation**
@@ -119,36 +117,42 @@ Training infrastructure for resource-efficient foundation model adaptation, repr
 I approach AI engineering as a complete systems lifecycle:
 
 ```text
+Problem Discovery
+       ↓
+Requirements
+       ↓
 Architecture
-    ↓
+       ↓
 Implementation
-    ↓
-Benchmarking
-    ↓
-Profiling
-    ↓
-Correctness Validation
-    ↓
-Performance Optimization
-    ↓
-Regression Detection
-    ↓
-Testing & Observability
-    ↓
-Containerized / Distributed Execution
+       ↓
+Integration
+       ↓
+Deployment
+       ↓
+Evaluation
+       ↓
+Profiling & Optimization
+       ↓
+Observability
+       ↓
+Iteration
 ```
 
 Across the portfolio:
 
+* Customer and stakeholder-driven solution development
+* AI/ML application and system architecture
+* Agent workflows, tool integration, and multi-agent execution
 * GPU kernel development and profiling
 * Native C++ / CUDA extensions
 * Distributed execution and scheduling
+* RAG, retrieval, and re-ranking
 * Performance benchmarking and regression detection
 * Numerical correctness validation
 * Memory and cache optimization
 * Statistical evaluation and experimentation
 * Dockerized infrastructure and CI/CD
-* Monitoring and observability
+* Monitoring, tracing, and observability
 
 ---
 
@@ -158,19 +162,28 @@ Across the portfolio:
 Python · C++20 · C · TypeScript · SQL
 
 **Machine Learning**
-PyTorch · Transformers · PEFT · Deep Learning · LLMs · RAG · Model Evaluation
+PyTorch · Transformers · PEFT · Deep Learning · LLMs · RAG · Fine-Tuning · Model Evaluation
+
+**Agentic AI**
+Agentic AI · AI Agents · Multi-Agent Systems · Agent Workflows · Tool/Function Calling · Agent Memory · MCP · A2A · LangGraph · LangChain · LlamaIndex
 
 **AI Systems**
-LLM Inference · Model Serving · Multi-Agent Systems · Retrieval Systems · Evaluation Infrastructure
+LLM Inference · Model Serving · Retrieval Systems · Evaluation Infrastructure · Vector Search · Re-ranking
 
 **Distributed Systems**
-DDP · FSDP · DeepSpeed ZeRO · NCCL · Ray · Concurrency · Scheduling · Fault Recovery
+DDP · FSDP · DeepSpeed ZeRO · NCCL · Ray · Concurrency · Scheduling · Fault Recovery · Tensor/Data/Pipeline Parallelism
 
 **GPU & Performance**
 CUDA · Triton · Custom Kernels · Quantization · KV-Cache · GPU Profiling · Nsight Systems · Nsight Compute
 
-**Infrastructure**
-Linux · Docker · Kubernetes · FastAPI · CI/CD · Prometheus · Grafana · OpenTelemetry
+**Production & Integration**
+FastAPI · REST APIs · Microservices · Data Pipelines · Linux · Docker · Kubernetes · CI/CD
+
+**Observability**
+OpenTelemetry · Distributed Tracing · Prometheus · Grafana · MLflow · W&B
+
+**Data & Infrastructure**
+PostgreSQL · Redis · Qdrant · FAISS · Kafka
 
 **Cloud**
 AWS · Azure · GCP
@@ -181,8 +194,10 @@ AWS · Azure · GCP
 
 > **Build beyond the model.**
 
-Modern AI performance is shaped by far more than model architecture.
+Modern AI systems are shaped by more than model architecture.
 
-It depends on **memory movement, kernel efficiency, scheduling, distributed execution, retrieval quality, evaluation methodology, observability, and operational reliability.**
+They depend on **problem formulation, data integration, agent workflows, retrieval, evaluation, inference, memory movement, scheduling, distributed execution, observability, and deployment.**
 
-That is the layer where I focus my engineering work.
+That is the engineering layer where I focus my work.
+
+---
